@@ -14,12 +14,13 @@ the region is created as follows:
 gfsh> create region --name=DeserializationErrorPOC --type=PARTITION_REDUNDANT_PERSISTENT --recovery-delay=10000 --disk-store=DataPersistence --enable-statistics=true --eviction-action=overflow-to-disk --compressor='org.apache.geode.compression.SnappyCompressor' --redundant-copies=1
 
 gfsh> describe region --name=DeserializationErrorPOC
-Name            : DeserializationErrorPOC
-Data Policy     : persistent partition
-Hosting Members : server1
 
-Non-Default Attributes Shared By Hosting Members
-
+|Name            : DeserializationErrorPOC
+|Data Policy     : persistent partition
+|Hosting Members : server1
+|
+|Non-Default Attributes Shared By Hosting Members
+|
 |  Type    |        Name        | Value
 |--------- | ------------------ | ---------------------------------------------
 |Region    | data-policy        | PERSISTENT_PARTITION
