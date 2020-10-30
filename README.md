@@ -1,5 +1,5 @@
 # GeodeDeserializationErrorPOC
-proof of error when deserializing in Geode 1.13
+this is a proof of error when deserializing in Geode 1.13
 
 I'm getting this error when trying to export a region's data from a geode 1.13 server
 
