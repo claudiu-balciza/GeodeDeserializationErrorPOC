@@ -19,8 +19,8 @@ Name            : DeserializationErrorPOC
 Data Policy     : persistent partition
 Hosting Members : server1
 
-|Non-Default Attributes Shared By Hosting Members
-|
+Non-Default Attributes Shared By Hosting Members
+
 |  Type    |        Name        | Value
 |--------- | ------------------ | ---------------------------------------------
 |Region    | data-policy        | PERSISTENT_PARTITION
