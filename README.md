@@ -15,11 +15,11 @@ gfsh> create region --name=DeserializationErrorPOC --type=PARTITION_REDUNDANT_PE
 
 gfsh> describe region --name=DeserializationErrorPOC
 
-Name            : DeserializationErrorPOC
-Data Policy     : persistent partition
-Hosting Members : server1
+|Name            | DeserializationErrorPOC
+|Data Policy     | persistent partition
+|Hosting Members | server1
 
-Non-Default Attributes Shared By Hosting Members
+|Non-Default Attributes Shared By Hosting Members
 
 |  Type    |        Name        | Value
 |--------- | ------------------ | ---------------------------------------------
