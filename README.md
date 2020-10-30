@@ -33,6 +33,7 @@ Non-Default Attributes Shared By Hosting Members
 |Partition | redundant-copies   | 1
 |          | recovery-delay     | 10000
 
-the exception is triggered when:
+the exception is triggered when I attempt:
+
 gfsh> export data --region=DeserializationErrorPOC --file=geode-storage/DeserializationErrorPOC.gfd --member=server1
 
