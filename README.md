@@ -37,3 +37,5 @@ the exception is triggered when I attempt:
 
 gfsh> export data --region=DeserializationErrorPOC --file=geode-storage/DeserializationErrorPOC.gfd --member=server1
 
+Also the app throws a "SpringBasedCacheClientApplication: org.apache.geode.SerializationException: While deserializing query result"
+when running repository.findAll().forEach((item) -> System.out.println(item.toString()));
