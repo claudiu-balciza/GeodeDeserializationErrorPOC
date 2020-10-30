@@ -20,18 +20,18 @@ Hosting Members : server1
 
 Non-Default Attributes Shared By Hosting Members
 
-  Type    |        Name        | Value
---------- | ------------------ | ---------------------------------------------
-Region    | data-policy        | PERSISTENT_PARTITION
-          | size               | 3
-          | cloning-enabled    | true
-          | disk-store-name    | DataPersistence
-          | statistics-enabled | true
-          | compressor         | org.apache.geode.compression.SnappyCompressor
-Eviction  | eviction-action    | overflow-to-disk
-          | eviction-algorithm | lru-heap-percentage
-Partition | redundant-copies   | 1
-          | recovery-delay     | 10000
+|  Type    |        Name        | Value
+|--------- | ------------------ | ---------------------------------------------
+|Region    | data-policy        | PERSISTENT_PARTITION
+|          | size               | 3
+|          | cloning-enabled    | true
+|          | disk-store-name    | DataPersistence
+|          | statistics-enabled | true
+|          | compressor         | org.apache.geode.compression.SnappyCompressor
+|Eviction  | eviction-action    | overflow-to-disk
+|          | eviction-algorithm | lru-heap-percentage
+|Partition | redundant-copies   | 1
+|          | recovery-delay     | 10000
 
 the exception is triggered when:
 gfsh> export data --region=DeserializationErrorPOC --file=geode-storage/DeserializationErrorPOC.gfd --member=server1
